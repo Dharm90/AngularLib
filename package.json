@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test --watch=false",
+    "test-angular-lib": "ng test angular-lib --watch=false",
+    "npm pack": "npm pack ./././AngularLibrary/dist/angular-lib"
   },
   "private": true,
   "dependencies": {
